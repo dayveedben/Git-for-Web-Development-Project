@@ -4,6 +4,8 @@ https://codepen.io/dayveedben/pen/mdyyaBb
 
 https://codepen.io/dayveedben/pen/xxbbMwN
 
+https://codepen.io/dayveedben/pen/xxbGEpJ?editors=1100
+
     1. What is Semantic HTML? 
        Answer: Semantic HTML is the basic markup  used to give meaning to our code.
     2. What is HTML used for? 
