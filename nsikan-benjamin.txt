@@ -1,0 +1,115 @@
+https://codepen.io/dayveedben/pen/abzzxKR
+
+https://codepen.io/dayveedben/pen/mdyyaBb
+
+https://codepen.io/dayveedben/pen/xxbbMwN
+
+https://codepen.io/dayveedben/pen/xxbGEpJ?editors=1100
+
+    1. What is Semantic HTML? 
+       Answer: Semantic HTML is the basic markup  used to give meaning to our code.
+    2. What is HTML used for? 
+       Answer:As the name implies, HTML is used to create electronic documents (called pages) that are displayed and interpreted by our        computers on the World Wide Web.
+    3. What is an attribute and where do we put it? 
+         An attribute is a specification that defines a property of an object, element, or file. It may also refer to or set the                  specific value for a given instance of such.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+          h1 tags are used for the most important information on the page. It is adviseable to be used just once.
+    
+    5. Name two tags that have required attributes
+          header tag and div tag
+    6. What do we put in the head of our HTML document? 
+          title of document, meta decription, Links to stylesheets, Links to scripts,
+    7. What is an id? 
+          An id is an attibute that is used solely to identify a particular tag throughout the document. The id attribute specifies a             unique id for an HTML element (the value must be unique within the HTML document
+    8. What elements can I add an id to? 
+          Answer: used on CSS or Javascript elements with specific unique id
+    9. How many times can I use the same id on a page? 
+          Once
+    10. What is a class? 
+          The class attribute is used to define equal styles for elements with similar tags
+    11. What elements can I add a class to? 
+           Elements which can be repeatitive such as semantic tags e.g divs, sections, p, etc 
+    12. How many times can I use the same class on a page? 
+          As many times as possible depending on the project being developed
+    13. How do I get my link to open in a new tab?
+          If you set the target attribute to "_blank", the link will open in a new browser window or a new tab.
+    14. What is the alt attribute used for?
+          The alt attribute provides alternative information for an image if a user for some reason cannot view it
+    15. How do I reference an id?
+          using the # selector 
+    16. What is the difference between a section and a div
+          Answer: The section tag defines sections in a document, such as chapters, headers, footers, or any other sections of the                 document. whereas: The div tag defines a division or a section in an HTML document. 
+
+    17. What is CSS used for? 
+          CSS is used for stylying our web pages
+    18. How to we select an element? Example - every h2 on the page
+          h2{
+          }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+          Class is used to differentiate between two similar tags helping to identify the particular element being called e.g 
+          <div class="container">
+            <div class="title">Title of Project</div>
+            <p></p>
+          </div>
+         Id is on the other hand used to tie  
+         
+    20. How do we select classes in CSS?
+          using the (.) selector
+    21. How do we select a p element with a single class of “human””?
+            .human{
+            }
+    22. What is a parent child selector? When would this be useful? 
+            Answer: Selector used to select all elements that are the direct child of its parent element
+    23. How do you select all links within a div with the class of sidebar?
+          answer: a .sidebar{
+          }
+    24. What is a pseudo selector?
+            A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+    25. What do we use the change the spacing between lines?
+          line-height:
+          
+    26. What do we use to change the spacing between letters?
+          font-size:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+          text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+          div{
+            border: 1px dotted black;
+          }
+    29. How do I select everything on the page? 
+            using the universal selector (*)
+    30. How do I write a comment in CSS?
+            /* Enter comment here*/
+    31. How do I find out what file I am in, when I am using the command line? 
+              git status
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+              ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+              git rm <file Name>
+    34. Why should I use version control? 
+            to be able to track all changes to project.
+    35. How often should I commit to github?
+            git commit -m "add commit notes here"
+    36. What is the command we would use to push our repo up to github? 
+            git push origin -u firstName-lastname
+    37. Walk me through Lambda's git flow. 
+     step 1: Fork the code from github
+     step 2: Add collaborator (TL)
+     step3:  cloan the project
+     step 4: Open add Branch using firstName-lastName
+     Step 5: Add files and commit
+     step 6: push to github
+     step 7: pull request and invite your TL 
+     
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
+
+
+   --> 
